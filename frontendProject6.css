@@ -1,0 +1,108 @@
+*{
+    margin : 0 ;
+    padding : 0 ;
+    box-sizing : border-box ;
+  }
+  body {
+    background-image: url('data:image/svg+xml,%3Csvg width="52" height="26" viewBox="0 0 52 26" xmlns="http://www.w3.org/2000/svg"%3E%3Cg fill="none" fill-rule="evenodd"%3E%3Cg fill="%239C92AC" fill-opacity="0.4"%3E%3Cpath d="M10 10c0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6h2c0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4 3.314 0 6 2.686 6 6 0 2.21 1.79 4 4 4v2c-3.314 0-6-2.686-6-6 0-2.21-1.79-4-4-4-3.314 0-6-2.686-6-6zm25.464-1.95l8.486 8.486-1.414 1.414-8.486-8.486 1.414-1.414z" /%3E%3C/g%3E%3C/g%3E%3C/svg%3E');
+    
+  }
+  #bodyBorders{
+    box-shadow : 0px 0px 0 0 grey inset,
+     -5px 0 20px 0 grey inset,
+      0px -5px 20px 0 grey inset,
+       5px 0px 20px 0 grey inset ;
+       padding : .1px; /* to aviod margin collapse*/
+  }
+  
+  header {
+    margin : .2rem ;
+   background : rgba(200,200,200,1);
+    border-radius : 0 .5rem  0 0;
+    box-shadow : 0px 0px 0 0 grey inset,
+     -5px 0 20px 0 grey inset,
+      0px -5px 20px 0 grey inset,
+       5px 0px 20px 0 grey inset ;
+  }
+  #menuIcon{
+    margin : 10px ;
+    cursor  : pointer;
+  }
+  
+  #logo {
+    height : 3rem ;
+    width : 3rem ;
+    background : blue;
+    border-radius : 50% ;
+    margin : 10px ;
+  }
+  
+  #wrapper {
+    display : flex ;
+    justify-content : space-between ;
+  }
+  
+  ul {
+    list-style : none ;
+    background : rgba(200,200,200,0.1);
+    padding : 1px 0 ;
+  }
+  li {
+    background :  rgba(200,200,200,1);
+    text-align : center;
+    margin : 2px 2px ;
+    border-radius: 0 .5rem  0 0 ;
+    padding : 2px ;
+    border : .1rem solid  ;
+    box-shadow : 0px 0px 0 0 grey inset,
+     -5px 0 20px 0 grey inset,
+      0px -5px 20px 0 grey inset,
+       5px 0px 20px 0 grey inset ;
+    
+  }
+    
+  nav {
+    display : none;
+  }
+  .display {
+    display : block ;
+  }
+  
+  /* ---------------------- body -----------*/
+  section {
+    width : 80%;
+    border: .1rem solid grey;
+    margin : 2rem auto;
+    border-radius: 0 .5rem  0 0 ;
+    background : rgba(200,200,200,1);
+    box-shadow : .4rem 1rem 1rem 0 rgba(100,100,100,1);
+      }
+  .imageDiv{
+    width: 80% ;
+    margin : 10px auto;
+           
+  }
+  
+  img {
+    max-width : 100% ;
+    border-radius: 0 .5rem  0 0 ;
+    display:block;
+    margin: 0 auto;
+    
+    
+    }
+ .liHr , hr.hrAbove{
+    width : 20% ;
+    
+  }
+  hr {
+    width : 60% ;
+    margin : 5px auto;
+    box-shadow : 0px 3px 5px 0 grey;
+  }
+  p{
+    padding : 10% 1% ;
+    text-align : center;
+  }
+
+  
