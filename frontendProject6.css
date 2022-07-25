@@ -12,7 +12,10 @@
      -5px 0 20px 0 grey inset,
       0px -5px 20px 0 grey inset,
        5px 0px 20px 0 grey inset ;
-       padding : .1px; /* to aviod margin collapse*/
+    padding : .1px; /* to aviod margin collapse*/
+    width : 95% ;
+    margin : 0 auto;
+    background : white;
   }
   
   header {
