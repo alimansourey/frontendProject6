@@ -30,8 +30,8 @@
   #menuIcon{
     margin : 10px ;
     cursor  : pointer;
-  }
-  
+      }
+       
   #logo {
     height : 3.2rem ;
     width : 3.2rem ;
@@ -140,13 +140,13 @@
 
   /* footer */
   footer {
-    min-height : 150px;
+    min-height : 50px;
     border : 1px solid;
-    width : 90%;
-    border: .1rem solid grey;
-    margin : 2rem auto 1rem auto;
-    border-radius: 0 .5rem  0 0 ;
+    width : var(--main-containers-width);
+    margin : var(--main-containers-margin);
     box-shadow : var(--box-shadow-light);
+    border: .1rem solid grey;
+    border-radius: 0 .5rem  0 0 ;
     padding : 5%;
     /* to make the ul height = 100 footer height*/
     display : grid ;
@@ -211,6 +211,22 @@ nav ul li {
   font-size : 1rem;
 }
 
+/* make sections go beside each other 
+by declaring their parent main as a grid:*/
+main {
+  display : grid ;
+  grid-template-columns :1fr 2fr 2fr 1fr;
+  grid-template-rows : repeat(auto-fill,1fr);
+  place-content :center;
+}
+/* place the 2 sections in the big columns :*/
+section#section1 {
+grid-column : 2/3;
+}
+
+section#section2 {
+  grid-column : 3/4;
+  }
 }
 
   
