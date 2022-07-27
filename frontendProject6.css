@@ -176,4 +176,41 @@
     grid-row : 1/4;
       }
 
+/* Desktop layout*/
+@media screen and (min-width:700px) {
+  #logo {
+    height : 4rem ;
+    width : 4rem ;
+  }
+header {
+  /* to avoid margin collape on ul below*/
+  border-bottom : 1px solid transparent;
+}
+
+ #menuIcon {
+  display : none;
+ }
+ nav {
+  display : block;
+ }
+ 
+ nav ul li p {
+  display : inline;
+   }
+  
+ nav ul {
+  width : 95%;
+  margin : 1rem auto;
+  display :grid;
+  grid-template : 1fr/1fr 1fr 1fr;
+  align-items : stretch;
+ }
+nav ul li {
+  gap : .1rem;
+  padding : 0;
+  font-size : 1rem;
+}
+
+}
+
   
